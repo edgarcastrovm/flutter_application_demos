@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void _incrementCounter() {
     if (_counter == 10) {
       _increment = -1;
-      _text = 'Diminuyendo';
+      _text = 'Disminuyendo';
     } else if (_counter == 0) {
       _increment = 1;
       _text = 'Aumentando';
