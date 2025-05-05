@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:navigation/pages/HomePage.dart';
 import 'package:navigation/pages/OnePage.dart';
+import 'package:navigation/pages/OtherPage.dart';
 
 class MainScaffold extends StatelessWidget {
   final String title;
@@ -40,6 +41,16 @@ class MainScaffold extends StatelessWidget {
                 Navigator.pushReplacement(
                   context,
                   MaterialPageRoute(builder: (context) => OnePage()),
+                );
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.pages),
+              title: Text('Página 2'),
+              onTap: () {
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(builder: (context) => OtherPage()),
                 );
               },
             ),
