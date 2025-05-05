@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "nombre": "Ecuador",
+      "ciudades": [
+        { "id": 1, "nombre": "Quito", "descripcion": "Capital del Ecuador" },
+        { "id": 2, "nombre": "Guayaquil", "descripcion": "Ciudad portuaria" }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Colombia",
+      "ciudades": [
+        { "id": 3, "nombre": "Bogotá", "descripcion": "Capital de Colombia" },
+        { "id": 4, "nombre": "Medellín", "descripcion": "Ciudad de la eterna primavera" }
+      ]
+    }
+  ]
